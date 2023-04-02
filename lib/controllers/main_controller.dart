@@ -16,7 +16,6 @@ class MainController extends GetxController {
         DataService.getCurrentHourlyWeather(latitude.value, longitude.value);
   }
 
-// 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
   var isDark = false.obs;
   Future<CurrentWeatherData>? currentWeatherData;
   dynamic hourlyWeatherData;
