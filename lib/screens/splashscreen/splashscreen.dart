@@ -12,21 +12,21 @@ class HelperScreen extends StatefulWidget {
 }
 
 class _HelperScreenState extends State<HelperScreen> {
-  // changeScreen() {
-  //   Future.delayed(
-  //     const Duration(seconds: 5),
-  //     () {
-  //       Get.to(() => const WeatherApp());
-  //     },
-  //   );
-  // }
+  changeScreen() {
+    Future.delayed(
+      const Duration(seconds: 5),
+      () {
+        Get.to(() => const WeatherApp());
+      },
+    );
+  }
 
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   changeScreen();
-  //   super.initState();
-  // }
+  @override
+  void initState() {
+    // TODO: implement initState
+    changeScreen();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
